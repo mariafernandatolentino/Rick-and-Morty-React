@@ -1,0 +1,53 @@
+#lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#lista li {
+  width: 300px;
+  height: 300px;
+  background: #ebc2ef;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#lista li img {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+#lista li span {
+  display: block;
+}
+
+#modal {
+  background-color: rgb(202, 153, 217);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#nomeModal{
+  display: flex;
+  justify-content: center;
+}
+
+#origemModal{
+  display: flex;
+  justify-content: center;
+}
+
+#localizacaoModal{
+  display: flex;
+  justify-content: center;
+}
+
+#especieModal{
+  display: flex;
+  justify-content: center;
+}
